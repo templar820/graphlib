@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
-
+import SchemaEditor from "./SchemaEditor";
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <SchemaEditor />
   </React.StrictMode>,
   document.getElementById('root')
 );
